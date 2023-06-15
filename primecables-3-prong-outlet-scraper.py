@@ -5,7 +5,7 @@ def sendmail(subject, body):
   subprocess.run(["mail", "-s", subject, "abicelis@gmail.com"], input=body.encode('utf-8'))
 
 URL = "https://www.primecables.ca/p-395617-cab-la-11"
-PRICE_TO_BEAT = 3
+PRICE_TO_BEAT = 9
 
 try:
   page = requests.get(URL)
