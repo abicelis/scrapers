@@ -6,7 +6,7 @@ def sendmail(subject, body):
   subprocess.run(["mail", "-s", subject, "abicelis@gmail.com"], input=body.encode('utf-8'))
 
 URL = "https://www.newegg.ca/synology-ds423/p/N82E16822108830"
-PRICE_TO_BEAT = 605
+PRICE_TO_BEAT = 608
 OUT_BODY = "SALE! 'Synology DS423' is on sale at Newegg.ca at {price}"
 OUT_SUBJECT = "Newegg scraper!"
 
